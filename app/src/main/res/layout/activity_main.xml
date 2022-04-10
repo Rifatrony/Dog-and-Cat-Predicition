@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/chooseImage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Choose Image"
+        />
+
+    <Button
+        android:id="@+id/takeImage"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="take Image"
+        />
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        />
+
+    <Button
+        android:id="@+id/predict"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="Predict"
+        android:layout_marginTop="20dp"
+        />
+
+    <TextView
+        android:id="@+id/decisionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textSize="22sp"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
